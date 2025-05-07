@@ -1,0 +1,158 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600&display=swap');
+
+.tag{
+    margin: 0px 10px;
+    font-size: 20px;
+   color: red; 
+}
+.blue-text{
+    color: #0585CD;
+}
+.blue-bg{
+    background-color: #0585CD;
+    border: none;
+    border-radius: 10px;
+    color: white;
+}
+.btn1{
+    border: none;
+    outline: none;
+    width: 146px;
+    border-radius: 10px;
+}
+.img-logo{
+    width: 100%;
+}
+.img-text p{
+    font-family: Montserrat;
+        font-size: 20px;
+        font-weight: 400;
+        line-height: 24px;
+        letter-spacing: 0.02em;
+        text-align: left;
+}
+.transparent{
+    border: 2px solid #0585CD;
+    border-radius: 10px;
+    color: #0585CD;
+}
+.parent-container{
+    width: 290px;
+}
+.parent{
+    width: 290px;
+    height: 12px;
+    border-radius: 10px;
+    background-color: #D9D9D9;
+}
+.child{
+    height: 100%;
+    border-radius: 10px;
+}
+.red{
+    height: 100%;
+        border-radius: 10px;
+        background-color: #FF0000CC;
+}
+.green {
+    height: 100%;
+        border-radius: 10px;
+        background-color:#008000CC;;
+}
+.editbtn{
+    width: 100px;
+    height: 56px;
+}
+.delbtn{
+    width: 131.43px;
+    height: 56px;
+}
+.main-form{
+    background-color: #0585CD29;
+    width: 100%;
+
+}
+.create-form{
+    width: 100%;
+}
+.create-form input, .create-form textarea{
+    border-radius: 5px;
+    border: 2px solid #0585CD;
+    outline: none;
+    padding-left: 3px;
+}
+.create-form input{
+    height: 50px;
+}
+.create-form textarea{
+    width: 100%;
+}
+@media(max-width: 320px){
+    .parent-container {
+            width: 240px;
+        }
+    
+        .parent {
+            width: 240px;
+        }
+        .create-link{
+            font-size: 12px;
+        }
+}
+@media (min-width: 900px) {
+    .img-logo{
+
+        width: 440px; 
+        height: 391px;
+    }
+    .img-text{
+        width: 650px;
+        height: 410px;
+    }
+        .parent-container {
+            width: 368px;
+        }
+        .parent {
+            width: 368px;
+        }
+        .updatebtn {
+            width: 230px;
+            height: 56px;
+        }
+
+         .main-form {
+             width: 500px;
+             height: auto;
+    
+    
+         }
+         .main-img img{
+            width: 480px;
+         }
+        .create-form input{
+            width: 329px;
+        }
+        .create-form textarea{
+            width: 420px;
+            height: 355px;
+        }
+}
+@media (min-width: 1200px) {
+.main-form {
+        width: 656px;
+        height: auto;
+
+
+    }
+    .main-img img {
+        width: 538px;
+    }
+    .create-form input {
+        width: 329px;
+    }
+
+    .create-form textarea {
+        width: 556px;
+        height: 355px;
+    }
+}
