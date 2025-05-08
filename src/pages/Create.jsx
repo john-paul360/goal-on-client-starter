@@ -15,7 +15,7 @@ const Create = () => {
     e.preventDefault();
     setIsSubmitting(true);
     try {
-      const { data } = await axiosInstance.post("/", { title, description});
+      const { data } = await axiosInstance.post("/", { title : title.toLowerCase(), description});
       if (data.success) {
         redirect("/all");
       }
